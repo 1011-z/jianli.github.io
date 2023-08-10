@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<title>简历</title>
+<meta charset="utf-8" />
+  <link rel="stylesheet" href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" />  
+  <link rel="stylesheet" href="https://cdn.bootcss.com/animate.css/3.5.2/animate.min.css" />
+<!-- 图表专用 -->
+<link rel="stylesheet" href="css/jquery.easyfader.css">
+<link rel="stylesheet" href="css/style.css" />
+<!-- 调用谷歌字库 -->
+<link href='http://fonts.googleapis.com/css?family=Raleway:400,800,500,600' rel='stylesheet' type='text/css'>
+</head>
+
+<body>
+<!-- main-menu -->
+<header>
+  <div class="logo"> <a href="#base"><img src="img/me.png" alt=""></a> </div>
+  <div class="main-menu" id="main-menu"> <span class="top"></span> <span class="middle"></span> <span class="bottom"></span> </div>
+  <div class="overlay" id="overlay">
+    <nav class="overlay-menu">
+      <ul>
+        <li><a href="#base">About Me</a></li>
+        <li><a href="#project">Project</a></li>
+        <li><a href="#design">Design</a></li>
+        <li><a href="#drawing">Drawing</a></li>
+        <li><a href="#photogr">Photographic</a></li>        
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- content -->
+<div class="resume-wrap">
+  <section id="base">
+    <div class="me">
+      <div class="avatar"> <img  data-kui-anim="zoomIn" src="img/avatar.png"
+            alt="简历头像">
+        <h1 class="wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="1500"> 张 绮 </h1>
+        <p class="wow fadeInUp" data-wow-duration="3s" data-wow-delay="2000"> 浙江传媒学院 应届</p>
+        <p class="wow fadeInUp" data-wow-duration="3.5s" data-wow-delay="2500"> <i class="fa fa-phone"> </i> 15224178962 </p>
+      </div>
+    </div>
+    <div class="hi">
+      <div class="container">
+        <img class="hello wow fadeInUp" data-wow-duration="1.5s" data-wow-delay="500"
+            src="img/hello.png" alt="hello">  
+        <p class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1300"><i class="fa fa-quote-left fa-3x "></i></p>
+        <p class="wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="1500">我是张绮，产品设计应届生，喜欢插画，想要在插画方向努力，不断精进，擅长平面设计、热爱二次元和互联网技术... </p>
+      </div>
+    </div>
+    <div class="skills skills1">
+      <div class="container">
+        <div class="tit-w">
+          <h2 class="wow fadeInUp item-tit" data-wow-duration="1.5s" data-wow-delay="100"> 设计能力 </h2>
+          <span class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1000"> UI Design Skills </span> </div>
+        
+        <div class="pie pie-lg clearfix">
+          <div class="pie-chart pie-chart1 has-margin-top-50" data-pie-chart--lg1 data-percent="90" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 90% </span>
+              <h3> 软件应用 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart2 has-margin-top-50" data-pie-chart--lg2 data-percent="85" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 85% </span>
+              <h3> 创意思维 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart3 has-margin-top-50" data-pie-chart--lg3 data-percent="75" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 75% </span>
+              <h3> 绘画技巧 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart4 has-margin-top-50" data-pie-chart--lg4 data-percent="80" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 80% </span>
+              <h3> 沟通表达 </h3>
+            </div>
+          </div>
+        </div>
+
+        <div class="pie pie-sm clearfix">
+          <div class="pie-chart pie-chart1 has-margin-top-50" data-pie-chart--sm1 data-percent="90" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 90% </span>
+              <h3> 软件应用 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart2 has-margin-top-50" data-pie-chart--sm2 data-percent="85" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 85% </span>
+              <h3> 创意思维 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart3 has-margin-top-50" data-pie-chart--sm3 data-percent="75" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 75% </span>
+              <h3> 绘画技巧 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart4 has-margin-top-50" data-pie-chart--sm4 data-percent="80" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 80% </span>
+              <h3> 沟通表达 </h3>
+            </div>
+          </div>
+        </div>
+
+        <p class="txt wow fadeInUp" data-wow-duration="3s" data-wow-delay="2800"> 两年的插画经验，有良好的设计功底和丰富的设计相关经验，擅长电脑绘图，喜欢绘制同人作品，具备一定的审美和辨别能力，综合能力和素质高，有系统学习插画的经历，并会建模、剪辑等项目经验，综合能力强，办事多面手！ </p>
+      </div>
+    </div>
+    <div class="skills skills2">
+      <div class="container">
+        <div class="tit-w">
+          <h2 class="wow fadeInUp item-tit" data-wow-duration="1.5s" data-wow-delay="100"> 专业技能 </h2>
+          <span class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1000"> Web development Skills </span> </div>
+        
+        <div class="pie pie-lg clearfix">
+          <div class="pie-chart pie-chart1 has-margin-top-50" data-pie-chart--lg5 data-percent="70" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 90% </span>
+              <h3>PS</h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart2 has-margin-top-50" data-pie-chart--lg6 data-percent="80" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 80% </span>
+              <h3> CSP </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart3 has-margin-top-50" data-pie-chart--lg7 data-percent="60" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 90% </span>
+              <h3> SAI2 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart4 has-margin-top-50" data-pie-chart--lg8 data-percent="75" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 95% </span>
+              <h3> Procreate </h3>
+            </div>
+          </div>
+        </div>
+        <p class="txt wow fadeInUp" data-wow-duration="3s" data-wow-delay="2800"> 有系统学习插画经历，并有建模、剪辑等相关项目的经验，熟练操作PS/AI/PR等平面及影视相关软件，对摄影、摄像及后期有一定的经验，掌握一定的OFICE软件基础。。 </p>
+      </div>
+    </div>
+    <div class="skills skills3">
+      <div class="container">
+        <div class="tit-w">
+          <h2 class="wow fadeInUp item-tit" data-wow-duration="1.5s" data-wow-delay="100"> 期望岗位 </h2>
+          <span class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1000"> Expected position </span>
+        </div>
+
+        <div class="pie pie-lg clearfix">
+          <div class="pie-chart pie-chart1 has-margin-top-50" data-pie-chart--lg1 data-percent="90" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 90% </span>
+              <h3> 漫画助理 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart2 has-margin-top-50" data-pie-chart--lg2 data-percent="80" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 80% </span>
+              <h3> 动画师 </h3>
+            </div>
+          </div>
+          <div class="pie-chart pie-chart3 has-margin-top-50" data-pie-chart--lg3 data-percent="85" data-kui-anim="zoomIn">
+            <div class="pie-chart-box pie1"> <span> 85% </span>
+              <h3> 插画师 </h3>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section>
+  <!-- WORK EXPERIENCE -->
+  <section class="experience">
+    <div class="container">
+      <div class="tit-b">
+        <h2 class="wow fadeInUp item-tit" data-wow-duration="1.5s" data-wow-delay="100"> 工作经历 </h2>
+        <span class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1000"> Work Experience </span> </div>
+      <p class="wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="1300"> <i class="fa fa-quote-left fa-3x pull-left"></i> 作为应届生，希望能够多尝试，积累经验，努力提升自己，找到适合自己喜欢的工作，在插画这条路上能够走下去！</p>
+    </div>
+    <div class="panel">
+      <div class="container clearfix">
+        <div class="one">
+          <div class="front"> <img src="img/as.png" alt="">
+            <h3> 杭州多泰科技 </h3>
+            <hr>
+            <p> AI矢量插画师 <span> / </span> 实习 </p>
+          </div>
+          <div class="back">
+            <h3> AI矢量插画师 </h3>
+            <hr>
+            <p> 科研绘图公司，主要负责绘制科研类 AI 模板图，用于公司网站的宣传和使用。 </p>
+          </div>
+        </div>
+        <div class="one">
+          <div class="front"> <img src="img/pci.png" alt="">
+            <h3> 书香培训 </h3>
+            <hr>
+            <p> 美术教师 <span> / </span> 兼职3年 </p>
+          </div>
+          <div class="back">
+            <h3> 美术教师 </h3>
+            <hr>
+            <p> 教育培训机构，我负责教授幼儿园到小学的学生绘画，包括国画，儿童画，素描色彩，二次元插画等课程内容 </p>
+          </div>
+        </div>
+        <div class="one one-last">
+          <div class="front"> <img src="img/jp.png" alt="">
+            <h3> 绍兴黑旗科技 </h3>
+            <hr>
+            <p> 游戏建模 <span> / </span> 实习 </p>
+          </div>
+          <div class="back">
+            <h3> 游戏建模 </h3>
+            <hr>
+            <p> 游戏建模外包，主要负责游戏的道具建模和人物建模，熟练掌握3DMAX，ZBURSH等建模相关软件。 </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- 项目 -->
+  <section id="project" class="project clearfix">
+    <div class="container section-top">
+      <div class="tit-b">
+        <h2 class="wow fadeInUp item-tit" data-wow-duration="1.5s" data-wow-delay="100"> 项目展示 </h2>
+        <span class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1000"> Project Display </span> </div>
+      <p class="wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="1300"> 在大学期间接触到的一些商用插图和一些私稿，以及一些自己的同人作品，以下！ </p>
+    </div>
+    <div class="grid">
+      <figure class="effect-ming">
+        <img src="img/project/1.jpg" alt="">        
+        <figcaption> 
+          <p> 接单项目 </p>
+          <p> 公司婴儿毯设计 </p>
+			<p> 负责根据需求描述绘制插画图片 </p>
+          <a href="proj/as/index.html" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming">
+        <img src="img/project/4.jpg" alt="" />
+        <figcaption> 
+           <p> 接单项目 </p>
+          <p> 公司婴儿毯设计 </p>
+			<p> 负责根据需求描述绘制插画图片 </p>
+          <a href="http://www.aujasen.com/" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming"> 
+        <img src="img/project/2.jpg" alt="" />
+        <figcaption> 
+          <p> 接单项目 </p>
+          <p> 卡通场景插画 </p>
+			<p> 负责根据需求描述绘制插画图片 </p>
+          <a href="http://www.sskoo.com/proj/bootstrap/index.html" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming">
+        <img src="img/project/3.jpg" alt="" />
+        <figcaption> 
+           <p> 个人项目 </p>
+          <p> 同人插画 </p>
+          <a href="http://www.sskoo.com/" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming">
+        <img src="img/project/5.jpg" alt="">        
+        <figcaption> 
+          <p> 个人项目 </p>
+          <p> 同人插画 </p>
+          <a href="#" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming">
+        <img src="img/project/8.jpg" alt="" />
+        <figcaption> 
+         <p> 个人项目 </p>
+          <p> 同人插画 </p>
+          <a href="proj/ui/index.html" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming"> 
+        <img src="img/project/6.jpg" alt="" />
+        <figcaption> 
+         <p> 个人项目 </p>
+          <p> 同人插画 </p>
+          <a href="proj/book/index.html" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming">
+        <img src="img/project/7.jpg" alt="" />
+        <figcaption> 
+         <p> 个人项目 </p>
+          <p> 同人插画 </p>
+          <a href="proj/card/index.html" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming">
+        <img src="img/project/9.jpg" alt="">        
+        <figcaption> 
+          <p> 个人项目 </p>
+          <p> 同人插画 </p>
+          <a href="#" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming"> 
+        <img src="img/project/10.jpg" alt="" />
+        <figcaption> 
+        <p> 个人项目 </p>
+          <p> 同人插画 </p>
+          <a href="#" target="_blank"> View more </a> </figcaption>
+      </figure>
+      <figure class="effect-ming">
+        <img src="img/project/11.jpg" alt="" />
+        <figcaption> 
+          <p> 个人项目 </p>
+          <p> 同人插画 </p>
+          <a href="proj/xiutu/index.html" target="_blank"> View more </a> </figcaption>
+      </figure>
+    </div>
+  </section>
+
+
+  <!-- 设计 -->
+  <section id="design">
+    <div class="container section-top">
+      <div class="tit-b">
+        <h2 class="wow fadeInUp item-tit" data-wow-duration="1.5s" data-wow-delay="100"> 设计作品 </h2>
+        <span class="wow fadeInUp" data-wow-duration="2s" data-wow-delay="1000"> Design Works </span> </div>
+      <p class="wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="1300"> 以下是我的部分练习作品，包含同人插画、儿童插画、卡通形象绘制、IP设计、表情包制作等作品,以下！ </p>
+    </div>
+    <div class="img i1"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/01.jpg"> </div></div>
+    <div class="img i2"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/02.jpg"> </div></div>
+    <div class="img i3"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/03.jpg"> </div></div>
+    <div class="img i4"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/04.jpg"> </div></div>
+    <div class="img i5"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/05.jpg"> </div></div>
+    <div class="img i6"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/06.jpg"> </div></div>
+    <div class="img i7"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/07.jpg"> </div></div>
+    <div class="img i8"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/08.jpg"> </div></div>
+    <div class="img i9"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/09.jpg"> </div></div>
+    <div class="img i10"><div class="container wow fadeIn" data-wow-duration="2s" data-wow-delay="2000"><img src="img/design/10.jpg"> </div></div>
+
+    
+
+  </section>
+
+
+  <!-- 绘画 -->
+  <section id="drawing">
+
+    <div class="container section-top">
+      <div class="tit-b">
+        <h2 class="wow fadeInUp item-tit animated" data-wow-duration="1.5s" data-wow-delay="100" style="visibility: visible; animation-duration: 1.5s; animation-name: fadeInUp;"> 部分线稿 </h2>
+        <span class="wow fadeInUp animated" data-wow-duration="2s" data-wow-delay="1000" style="visibility: visible; animation-duration: 2s; animation-name: fadeInUp;"> Line Drawings </span> </div>
+      <p class="wow fadeInUp animated" data-wow-duration="2.5s" data-wow-delay="1300" style="visibility: visible; animation-duration: 2.5s; animation-name: fadeInUp;"> 为了形成独特的风格，喜欢对线稿进行不同的深入探索，以下是我的部分拙作</p>
+    </div>
+
+    <div class="i1">
+      <div class="piece-art wow fadeIn" data-wow-duration="2s" data-wow-delay="1200"> <img src="img/drawing/001.jpg"> </div>      
+    </div>
+    <div class="i2">
+      <div class="piece-art wow fadeIn" data-wow-duration="2s" data-wow-delay="1200"> <img src="img/drawing/002.jpg"> </div>
+    </div>
+    <div class="i3">
+      <div class="piece-art wow fadeIn" data-wow-duration="2s" data-wow-delay="1200"> <img src="img/drawing/003.jpg"> </div>
+    </div>
+ 
+  </section>
+
+      <div class="fader_controls">
+        <div class="page prev" data-target="prev"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+        <div class="page next" data-target="next"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+        <ul class="pager_list">
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer -->
+  <footer>
+    <strong class="wow fadeInUp" data-wow-duration="2.5s" data-wow-delay="1500">THANKS!</strong>
+    <p class="wow fadeInUp" data-wow-duration="3s" data-wow-delay="2000"> <i class="fa fa-phone"> </i> 15224178962 </p>
+    <div class="qq wow fadeInUp" data-wow-duration="3.5s" data-wow-delay="2500">
+      
+      <a href="http://wpa.qq.com/msgrd?v=3&amp;uin=66370478&amp;site=qq&amp;menu=yes"><i class="fa fa-qq blue" aria-hidden="true"></i></a>
+      <a href="weixin.html" target="_blank"><i class="fa fa-weixin green" aria-hidden="true"></i></a>
+      <a href="mailto:66370478@qq.com" "email me"><i class="fa fa-envelope pink" aria-hidden="true"></i></a>
+    </div>
+    <p class="wow fadeInUp" data-wow-duration="3.5s" data-wow-delay="2500">© 2016 <a href="http://www.sskoo.com/" target="_blank">1011279676@qq.com</p>
+    
+  </footer>
+
+</div>
+<!-- totop --> 
+<a class="to-top"><i class="fa fa-angle-up" aria-hidden="true"></i></a> 
+<!-- js --> 
+<script src="https://cdn.bootcss.com/jquery/2.2.4/jquery.min.js"></script>
+ <script src="https://cdn.bootcss.com/wow/1.1.2/wow.min.js">//页面动画插件</script>
+<script src="js/scrollanim.min.js"></script>
+<script src="js/jquery.toTop.min.js">//回到顶部插件</script> 
+<script src="js/jquery.nav.js">//回到顶部插件</script> 
+<script src="js/jquery.easyfader.js">//图表专用</script> 
+<script src="js/script.js"></script> 
+
+</body>
+</html>
